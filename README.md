@@ -11,4 +11,15 @@ and we have weather for that particular city.
 - User friendly
 - Build with  good knowledge
 
+## Libraries, Widgets and Tools
+
+- Card View
+- Picasso
+- Volley
+- OpenWeatherMap API
+- JSON
+- ImageButton
+- ScrollView
+- and some minor tools, views and widgets
+
 ## ScreenShots
