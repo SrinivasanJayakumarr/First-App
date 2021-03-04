@@ -16,7 +16,7 @@ and we have weather for that particular city.
 - Card View
 - Picasso
 - Volley
-- OpenWeatherMap API
+- ![OpenWeatherMap API](https://openweathermap.org/api)
 - JSON
 - ImageButton
 - ScrollView
