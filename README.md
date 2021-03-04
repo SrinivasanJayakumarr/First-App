@@ -4,6 +4,9 @@
 
 ## _A Local tourism and simple weather app_
 
+
+### Description
+
 App comporises of four cities of Tamilnadu, and each city has its tourist place,
 and we have weather for that particular city.
 
@@ -11,7 +14,7 @@ and we have weather for that particular city.
 - User friendly
 - Build with  good knowledge
 
-## :scroll: Libraries, Widgets and Tools :blue_heart:
+## :hammer_and_wrench: Libraries, Widgets and Tools
 
 - Card View
 - Picasso
@@ -22,4 +25,4 @@ and we have weather for that particular city.
 - ScrollView
 - and some minor tools, views and widgets
 
-## ScreenShots
+## :camera: ScreenShots
