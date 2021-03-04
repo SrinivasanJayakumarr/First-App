@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">TT_Weather</string>
+
+    <string name="welcome_txt_1">Hi...!</string>
+    <string name="welcome_txt_2">Welcome...</string>
+
+    <string name="city_1_OV_title_txt">Chennai</string>
+    <string name="chennai_content">Chennai also known as Madras is the capital of the Indian state of Tamilnadu. Located on the Coromandel Coast off the Bay of Bengal, it is a primary cultural, economic and educational centre of South India. According to the 2011 Indian census, it is the sixth-most populous city and fourth-most populous urban agglomeration in India.</string>
+    <string name="more_details">More</string>
+    <string name="places">More Places</string>
+    <string name="explore">Go</string>
+
+    <string name="chennai_place_1">Ekkattuthangal</string>
+    <string name="chennai_place_2">Guindy</string>
+    <string name="chennai_place_3">T Nagar</string>
+    <string name="chennai_place_4">Rayapuram</string>
+
+    <string name="city_2_OV_title_txt">Trichy</string>
+    <string name="Trichy_content">Trichy also known as is the capital of the Indian state of Tamilnadu. Located on the Coromandel Coast off the Bay of Bengal, it is a primary cultural, economic and educational centre of South India. According to the 2011 Indian census, it is the sixth-most populous city and fourth-most populous urban agglomeration in India.</string>
+
+    <string name="city_3_OV_title_txt">Coimbatore</string>
+    <string name="kovai_content">Coimbatore also known as is the capital of the Indian state of Tamilnadu. Located on the Coromandel Coast off the Bay of Bengal, it is a primary cultural, economic and educational centre of South India. According to the 2011 Indian census, it is the sixth-most populous city and fourth-most populous urban agglomeration in India.</string>
+
+    <string name="city_4_OV_title_txt">Madurai</string>
+    <string name="madurai_content">Madurai also known as is the capital of the Indian state of Tamilnadu. Located on the Coromandel Coast off the Bay of Bengal, it is a primary cultural, economic and educational centre of South India. According to the 2011 Indian census, it is the sixth-most populous city and fourth-most populous urban agglomeration in India.</string>
+
+    <string name="city_5_OV_title_txt">Tanjore</string>
+    <string name="tanjore_content">Chennai also known as Madras is the capital of the Indian state of Tamilnadu. Located on the Coromandel Coast off the Bay of Bengal, it is a primary cultural, economic and educational centre of South India. According to the 2011 Indian census, it is the sixth-most populous city and fourth-most populous urban agglomeration in India.</string>
+
+    <string name="trichy_place_1">Srirangam</string>
+    <string name="trichy_place_2">Market</string>
+    <string name="trichy_place_3">Malaikkottai</string>
+    <string name="trichy_place_4">Samayapuram</string>
+
+    <string name="kovai_place_1">Ooty</string>
+    <string name="kovai_place_2">Kodaikanal</string>
+    <string name="kovai_place_3">Marudhamalai</string>
+    <string name="kovai_place_4">Gandhipuram</string>
+
+    <string name="madurai_place_1">Alanganallur</string>
+    <string name="madurai_place_2">Melur</string>
+    <string name="madurai_place_3">Usilampatti</string>
+    <string name="madurai_place_4">Vadipatti</string>
+
+    <string name="tanjore_place_1">Kumbakonam</string>
+    <string name="tanjore_place_2">Orathanad</string>
+    <string name="tanjore_place_3">Pattukottai</string>
+    <string name="tanjore_place_4">Thiruvaiyaru</string>
+
+    <string name="city_1_weather_txt">Chennai Weather</string>
+    <string name="city_2_weather_txt">Trichy Weather</string>
+    <string name="city_3_weather_txt">Coimbatore Weather</string>
+    <string name="city_4_weather_txt">Madurai Weather</string>
+    <string name="city_5_weather_txt">Tanjore Weather</string>
+
+    <string name="weather_txt_1">Chennai Weather</string>
+    <string name="weather_txt_2">Trichy Weather</string>
+    <string name="weather_txt_3">Coimbatore Weather</string>
+    <string name="weather_txt_4">Madurai Weather</string>
+    <string name="weather_txt_5">Tanjore Weather</string>
+
+    <string name="weather_status_city_1">Chennai, TN</string>
+    <string name="weather_status_city_2">Trichy, TN</string>
+    <string name="weather_status_city_3">Coimbatore, TN</string>
+    <string name="weather_status_city_4">Madurai, TN</string>
+    <string name="weather_status_city_5">Tanjore, TN</string>
+
+    <string name="weather_temp_status">88.8</string>
+    <string name="degree">o</string>
+    <string name="celcius">C</string>
+    <string name="weather_status_description">clear sky</string>
+
+    <string name="presuure_value">1997</string>
+    <string name="wind_value">9.9</string>
+    <string name="humidity_value">99</string>
+    <string name="pressure_unit">hPa</string>
+
+    <string name="wind_unit">m/s</string>
+    <string name="humidity_unit">%</string>
+    <string name="chance_yes">YES</string>
+    <string name="chance_no">NO</string>
+
+    <string name="Network_status">Data</string>
+    <string name="Weather_get">Get</string>
+    <string name="select_any_one_of_them">Select any one of them</string>
+
+</resources>

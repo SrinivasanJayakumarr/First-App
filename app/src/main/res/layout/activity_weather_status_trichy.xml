@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="14dp"
+    android:layout_gravity="center"
+    android:background="@color/Surface">
+
+    <TextView
+        android:id="@+id/txt_view_ws_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_status_city_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/Cards"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt_view_ws_1"
+        android:layout_marginTop="50dp"
+        android:layout_toStartOf="@+id/img_view_ws_1"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/internet"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt_view_ws_1"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/img_view_ws_1"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/refresh"
+        android:backgroundTint="@color/white"/>
+
+    <ImageView
+        android:id="@+id/img_view_ws_1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/txt_view_ws_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sun"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/txt_view_temp_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_view_ws_1"
+        android:text="@string/weather_temp_status"
+        android:textSize="40sp"
+        android:textColor="@color/Cards"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="135dp"/>
+
+    <TextView
+        android:id="@+id/txt_view_degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_view_ws_1"
+        android:layout_toEndOf="@+id/txt_view_temp_status"
+        android:text="@string/degree"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textColor="@color/Cards"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_view_celcius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/celcius"
+        android:textSize="40sp"
+        android:textColor="@color/Cards"
+        android:layout_below="@+id/img_view_ws_1"
+        android:layout_toEndOf="@+id/txt_view_degree"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txt_view_weather_descrption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/weather_status_description"
+        android:textSize="22sp"
+        android:textColor="@color/Cards"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_view_temp_status"
+        android:layout_marginTop="8dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_view_weather_descrption"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_wind"
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/image_wind"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/wind"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/txt_view_wind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wind_value"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wind_unit"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="170dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_pressure"
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                android:layout_below="@+id/card_view_wind"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/image_pressure"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/pressure"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/txt_view_pressure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/presuure_value"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pressure_unit"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="185dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_humidity"
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                android:layout_below="@+id/card_view_pressure"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/image_humidity"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/humidity"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/txt_view_humidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/humidity_value"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/humidity_unit"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="155dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".City_two_overview"
+    android:background="@color/Surface"
+    android:padding="14dp">
+
+    <ImageView
+        android:id="@+id/img_view_trichy"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/trichy"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/App_Bar"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+
+    <Button
+        android:id="@+id/trichy_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/trichy_title"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="185dp"
+        android:background="@drawable/button_bg_two"
+        android:text="@string/more_details"
+        android:textColor="@color/Light_green"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/trichy_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city_2_OV_title_txt"
+        android:textSize="25sp"
+        android:textColor="@color/Light_green"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_below="@+id/img_view_trichy"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"/>
+
+    <ScrollView
+        android:id="@+id/scrl_view_trichy"
+        android:layout_width="365dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/trichy_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_trichy_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Trichy_content"
+                android:textSize="20sp"
+                android:textAlignment="gravity"
+                android:lineSpacingExtra="7dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

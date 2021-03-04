@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="14dp"
+    android:background="@color/Surface"
+    tools:context=".Place">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/trichy"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/App_Bar"
+        android:elevation="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/Surface">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="230dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/timing"
+                    android:backgroundTint="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="09.30 - 6.00"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginStart="55dp"
+                    android:layout_marginTop="230dp"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="230dp"
+                    android:layout_marginStart="185dp"
+                    android:background="@drawable/location"
+                    android:backgroundTint="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Malaikottai"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginStart="220dp"
+                    android:layout_marginTop="230dp"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="290dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/rating"
+                    android:backgroundTint="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.2 / 5"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="290dp"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="290dp"
+                    android:layout_marginLeft="185dp"
+                    android:background="@drawable/good_for"
+                    android:backgroundTint="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Children"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="290dp"
+                    android:textSize="18sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="320dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Trichy_content"
+                        android:textColor="@color/white"
+                        android:lineSpacingExtra="7dp"
+                        android:padding="20dp"
+                        android:textAlignment="textStart"
+                        android:textStyle="normal"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

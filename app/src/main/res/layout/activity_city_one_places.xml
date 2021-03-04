@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Surface"
+    android:padding="14dp"
+    tools:context=".City_one_places">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_0"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/App_Bar"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:id="@+id/city_1_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/place_holder_for_images"/>
+
+        <TextView
+            android:id="@+id/city_place_1"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="140dp"
+            android:text="@string/chennai_place_1"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/city_place_1_addr"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="140dp"
+            android:text="@string/chennai_place_1"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/card_view_0"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/App_Bar"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:id="@+id/city_2_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/place_holder_for_images"/>
+
+        <TextView
+            android:id="@+id/city_place_2"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="140dp"
+            android:text="@string/chennai_place_2"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/city_place_2_addr"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="140dp"
+            android:text="@string/chennai_place_2"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/card_view_1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/App_Bar"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:id="@+id/city_3_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/place_holder_for_images"/>
+
+        <TextView
+            android:id="@+id/city_place_3"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="140dp"
+            android:text="@string/chennai_place_3"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/city_place_3_addr"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="140dp"
+            android:text="@string/chennai_place_3"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/card_view_2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/App_Bar"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:id="@+id/city_4_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/place_holder_for_images"/>
+
+        <TextView
+            android:id="@+id/city_place_4"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="140dp"
+            android:text="@string/chennai_place_4"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/city_place_4_addr"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="140dp"
+            android:text="@string/chennai_place_4"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/chennai_weather_btn"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_bg_two"
+        android:text="@string/weather_txt_1"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_below="@id/card_view_3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

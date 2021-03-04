@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="Light_green">#56C596</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="Dark_Blue">#205072</color>
+
+    <color name="App_Bar">#212121</color>
+    <color name="Bg">#303030</color>
+    <color name="Cards">#424242</color>
+    <color name="Surface">#121212</color>
+
+    <color name="Primary">#BB86FC</color>
+    <color name="Primary_Variant">#3700B3</color>
+    <color name="Secondary">#03DAC6</color>
+
+</resources>
