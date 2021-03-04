@@ -27,4 +27,4 @@ and we have weather for that particular city.
 
 ## :camera: ScreenShots
 
-![Image](https://github.com/SrinivasanJayakumarr/First-App/OutPut/master/Screenshot_20210304-161655.png?raw=true)
+<img src="https://github.com/SrinivasanJayakumarr/First-App/blob/master/OutPuts/Screenshot_20210304-161655.png" width="100"/>
