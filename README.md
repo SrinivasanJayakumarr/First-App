@@ -1,6 +1,6 @@
 # ![First App]((https://github.com/SrinivasanJayakumarr/First-App/tree/master))
 
-![API](https://img.shields.io/badge/API-23%2B-brightgreen.svg?style=flat) [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) 
+![API](https://img.shields.io/badge/API-23%2B-brightgreen.svg?style=flat) [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) [![GitHub issues](https://img.shields.io/github/issues/SrinivasanJayakumarr/First-App)](https://github.com/SrinivasanJayakumarr/First-App/issues) ![OpenSource](https://img.shields.io/badge/OpenSource-YES-brightgreen)
 
 ## _A Local tourism and simple weather app_
 
@@ -11,7 +11,7 @@ and we have weather for that particular city.
 - User friendly
 - Build with  good knowledge
 
-## :pushpin: Libraries, Widgets and Tools
+## :scroll: Libraries, Widgets and Tools :blue_heart:
 
 - Card View
 - Picasso
